@@ -1,7 +1,11 @@
 
 
   body{
-    background-color:teal;
+    background:url("https://i.imgur.com/uGRFZEs.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;;
   }
 
   .start-bar {padding:2px;box-shadow:inset 1px 0 #fff;display:block;background-color:silver;bottom:0;left:0;right:0;border-top:1px solid #f4f4f4;border-bottom:1px solid #4e4e4e;position:fixed;z-index:99999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
