@@ -1,0 +1,16 @@
+
+
+  body{
+    background-color:teal;
+  }
+
+  .start-bar{padding:2px;box-shadow:inset 1px 0 #fff;display:block;background-color:silver;bottom:0;left:0;right:0;border-top:1px solid #f4f4f4;border-bottom:1px solid #4e4e4e;position:fixed;z-index:99999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
+  .start-button{background-repeat:no-repeat;width:45px;height:14px}
+  .made-by {vertical-align:middle;height:22px;line-height:22px;border-right:1px solid #fff;border-bottom:1px solid #fff;font-family:Arial;font-weight:400;color:#000}.start-bar-window{float:left;padding:0 10px 0 6px;border-top:1px solid #000;border-left:1px solid #000;box-shadow:inset 1px 1px grey;background-image:url(https://blogs.windows.com/wp-content/uploads/prod/sites/44/2020/08/1_CHxR-5a0lAZUYuWqjMT-ag.jpg);background: height 14px, width 45px;;}
+  .made-by{float:right;text-align:right;padding:0 10px;border-top:1px solid gray;border-left:1px solid gray}
+
+  table, td, tr {
+    font-family: "Pixelated MS Sans Serif",Arial;
+    -webkit-font-smoothing: none;
+    font-size: 11px;
+  }
