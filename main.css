@@ -1,0 +1,78 @@
+
+
+  body{
+    background:url("https://i.imgur.com/uGRFZEs.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;;
+  }
+
+  .start-bar {padding:2px;box-shadow:inset 1px 0 #fff;display:block;background-color:silver;bottom:0;left:0;right:0;border-top:1px solid #f4f4f4;border-bottom:1px solid #4e4e4e;position:fixed;z-index:99999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
+  .start-button{background-repeat:no-repeat;width:45px;height:14px}
+  .date-box {vertical-align:middle;height:22px;line-height:22px;border-right:1px solid #fff;border-bottom:1px solid #fff;font-family:Arial;font-weight:400;color:#000}.start-bar-window{float:left;padding:0 10px 0 6px;border-top:1px solid #000;border-left:1px solid #000;box-shadow:inset 1px 1px grey;background-image:url(https://blogs.windows.com/wp-content/uploads/prod/sites/44/2020/08/1_CHxR-5a0lAZUYuWqjMT-ag.jpg);background: height 14px, width 45px;;}
+  .date-box {float:right;text-align:right;padding:0 10px;border-top:1px solid gray;border-left:1px solid gray}
+
+  table, td, tr {
+    font-family: "Pixelated MS Sans Serif",Arial;
+    -webkit-font-smoothing: none;
+    font-size: 11px;
+  }
+
+  .title-bar-text { font-family: "Comic Sans MS", "Comic Sans", cursive;
+  }
+
+  /* Popup container */
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+/* The actual popup (appears on top) */
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+
+  /* .window-body b { font-family:"Impact", sans-serif; font-smooth: never; -webkit-font-smoothing:none; text-transform:uppercase; text-shadow: #4e4e4e; font-size: 14px;  } */
