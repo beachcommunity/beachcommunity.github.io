@@ -11,8 +11,20 @@
 <body>
 
     <script>
+		let message = [
+			"You have clicked a button that doesn't work. Only the 'Send' button on the RSVP works. Don't continue to disappoint yourself.",
+			"I said, only the 'Send' button works. Please stop trying the other buttons.",
+			"Why are you like this",
+			"Something bad is going to happen...",
+			"I warned you...",
+		];
+		let index = 0;
+		let sketchyLink = "https://www.khanacademy.org/math/multivariable-calculus/multivariable-derivatives/quiz/multivariable-derivatives-quiz-4?modal=1"
         function myFunction() {
-          alert("You have clicked a button that doesn't work. Only the 'Send' button on the RSVP works. Don't continue to disappoint yourself.");
+		  if (!message[index]) {
+		    window.location.replace(sketchyLink);
+		  }
+          alert(message[index++]);
         }
     </script>
 
